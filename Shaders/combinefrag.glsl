@@ -11,6 +11,9 @@ in Vertex {
 out vec4 fragColour;
 
 void main(void) {
+	if(texture(diffuseTex, IN.texCoord).a==0){
+		return;
+	}
 	vec3 diffuse = texture(diffuseTex , IN.texCoord ).xyz;
 	vec3 light = texture(diffuseLight , IN.texCoord ).xyz;
 	vec3 specular = texture(specularLight , IN.texCoord ).xyz;

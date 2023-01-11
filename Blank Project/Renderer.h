@@ -1,7 +1,7 @@
 #pragma once
 
 #include "../nclgl/OGLRenderer.h"
-#include "../6) Scene Graph/SceneNode.h"
+#include "../nclgl/SceneNode.h"
 #include "../nclgl/Frustum.h"
 
 class HeightMap;
@@ -16,9 +16,21 @@ public:
 	Renderer(Window& parent);
 	~Renderer(void);
 	bool gaussian;
+	bool splitscreen;
+	bool cameramove;
 	void RenderScene() override;
 	void RenderScenePP();
 	void UpdateScene(float dt) override;
+	float posx;
+	float posy;
+	float posz;
+	int rotation;
+	bool rotate;
+	float c1;
+	float c2;
+	float camrotate;
+	bool returning;
+	bool returningcam;
 
 protected:
 	void BuildNodeLists(SceneNode* from);
@@ -55,6 +67,7 @@ protected:
 	Shader* shadowShader;
 
 	Camera* camera;
+	Camera* camera2;
 	Light* light; 
 	Light* pointLights;
 	GLuint texture;
@@ -76,24 +89,36 @@ protected:
 	Mesh* manmesh;
 	Mesh* sphere;
 	Mesh* var;
+	Mesh* var2;
 	//SubMesh* sub;
 
 	Frustum frameFrustum;
 
 	GLuint bufferFBO;
+	GLuint bufferFBO2;
 	GLuint processFBO;
 	GLuint PPbufferFBO;
+	GLuint processFBO2;
+	GLuint PPbufferFBO2;
 	GLuint bufferColourTex;
+	GLuint bufferColourTex2;
 	GLuint processbufferColourTex[2];
+	GLuint processbufferColourTex2[2];
 	GLuint bufferDepthTex;
+	GLuint bufferDepthTex2;
 	GLuint PPbufferDepthTex;
+	GLuint PPbufferDepthTex2;
 	GLuint bufferNormalTex;
+	GLuint bufferNormalTex2;
 	GLuint shadowTex;
 	GLuint shadowFBO;
 
 	GLuint pointLightFBO;
+	GLuint pointLightFBO2;
 	GLuint lightDiffuseTex;
+	GLuint lightDiffuseTex2;
 	GLuint lightSpecularTex;
+	GLuint lightSpecularTex2;
 
 	vector <SceneNode*> transparentNodeList;
 	vector <SceneNode*> nodeList;
