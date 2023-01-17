@@ -1,0 +1,33 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(992,5): warning MSB8027: Two or more files with the name of Camera.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\2) Matrix Transformations\Camera.cpp, Camera.cpp.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(992,5): warning MSB8027: Two or more files with the name of SceneNode.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\6) Scene Graph\SceneNode.cpp, SceneNode.cpp.
+  Camera.cpp
+  SceneNode.cpp
+  Camera.cpp
+  ComputeShader.cpp
+  Frustum.cpp
+  GameTimer.cpp
+  HeightMap.cpp
+H:\Downloads\CSC8502 2022\nclgl\HeightMap.cpp(26,48): warning C4244:  'argument': conversion from 'int' to 'const float', possible loss of data
+H:\Downloads\CSC8502 2022\nclgl\HeightMap.cpp(26,31): warning C4244:  'argument': conversion from 'int' to 'const float', possible loss of data
+H:\Downloads\CSC8502 2022\nclgl\HeightMap.cpp(27,39): warning C4244:  'argument': conversion from 'int' to 'const float', possible loss of data
+  Keyboard.cpp
+  Matrix2.cpp
+  Matrix3.cpp
+  Matrix4.cpp
+  Mesh.cpp
+  MeshAnimation.cpp
+  MeshMaterial.cpp
+  Mouse.cpp
+  OGLRenderer.cpp
+H:\Downloads\CSC8502 2022\nclgl\HeightMap.cpp(27,36): warning C4244:  'argument': conversion from 'int' to 'const float', possible loss of data
+H:\Downloads\CSC8502 2022\nclgl\OGLRenderer.cpp(137,42): error C2039:  'DebugCallback': is not a member of 'OGLRenderer'
+H:\Downloads\CSC8502 2022\nclgl\OGLRenderer.h(48): message :  see declaration of 'OGLRenderer'
+H:\Downloads\CSC8502 2022\nclgl\OGLRenderer.cpp(137,55): error C2065:  'DebugCallback': undeclared identifier
+H:\Downloads\CSC8502 2022\nclgl\OGLRenderer.cpp(252,19): error C2039:  'DebugCallback': is not a member of 'OGLRenderer'
+  Plane.cpp
+  Quaternion.cpp
+  SceneNode.cpp
+  Shader.cpp
+  Compiling...
+  Window.cpp
+H:\Downloads\CSC8502 2022\nclgl\OGLRenderer.h(48): message :  see declaration of 'OGLRenderer'

@@ -41,6 +41,11 @@
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <ClInclude Include="..\2) Matrix Transformations\Camera.h" />
+    <ClInclude Include="..\6) Scene Graph\SceneNode.h" />
+>>>>>>> f0d6f2e28006b659f2bbc0ff3df0a6f4aa095abb
     <ClInclude Include="Camera.h" />
     <ClInclude Include="common.h" />
     <ClInclude Include="ComputeShader.h" />

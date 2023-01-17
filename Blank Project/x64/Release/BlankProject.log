@@ -1,0 +1,10 @@
+﻿  BlankProject.cpp
+  Renderer.cpp
+H:\Downloads\CSC8502 2022\Blank Project\Renderer.cpp(71,19): warning C4244:  'argument': conversion from 'int' to 'const float', possible loss of data
+H:\Downloads\CSC8502 2022\Blank Project\Renderer.cpp(70,32): warning C4244:  'argument': conversion from 'int' to 'const float', possible loss of data
+H:\Downloads\CSC8502 2022\Blank Project\Renderer.cpp(147,58): warning C4244:  'argument': conversion from 'int' to 'const float', possible loss of data
+H:\Downloads\CSC8502 2022\Blank Project\Renderer.cpp(147,19): warning C4244:  'argument': conversion from 'int' to 'const float', possible loss of data
+H:\Downloads\CSC8502 2022\Blank Project\Renderer.cpp(325,12): warning C4305:  '=': truncation from 'double' to 'float'
+H:\Downloads\CSC8502 2022\Blank Project\Renderer.cpp(864,21): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+H:\Downloads\CSC8502 2022\Blank Project\Renderer.cpp(878,81): warning C4267:  'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+LINK : fatal error LNK1181: cannot open input file 'nclgl.lib'
