@@ -1,6 +1,6 @@
 Execution method
 I have used Visual studio for the development of this project. The executable can be run as is on desktop. On laptop,
-ensure that your graphics card is running discretely.
+ensure that your graphics card is running discretely. The executable can be found in the x64 folder.
 
 Shortcuts 
 “G” – Gaussian blur effect on screen.
@@ -9,6 +9,8 @@ Shortcuts
 
 Both the gaussian effect and the split screen can be deactivated through clicking the respective key binds again.
 
+Here is a Youtube link to a reel of the project.
+https://youtu.be/qvOPyiqP01g
 
 Regarding the areas I struggled with in this project, considering it was my first time utilizing the opengl library
 for graphics, I found the documentation as well as the wide range of function calls intimidating. Specific areas I
