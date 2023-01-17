@@ -1,5 +1,5 @@
 #include "Frustum.h"
-#include "../6) Scene Graph/SceneNode.h" //To use the classes , we do need the header
+#include "SceneNode.h" //To use the classes , we do need the header
 #include "Matrix4.h" // eventually , but now no header leaking!
 
 bool Frustum::InsideFrustum(SceneNode& n) {

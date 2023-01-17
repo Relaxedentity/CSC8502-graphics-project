@@ -32,8 +32,6 @@
     <ClCompile Include="Window.cpp">
       <Filter>Windows and Input</Filter>
     </ClCompile>
-    <ClCompile Include="..\6) Scene Graph\SceneNode.cpp" />
-    <ClCompile Include="..\2) Matrix Transformations\Camera.cpp" />
     <ClCompile Include="Plane.cpp" />
     <ClCompile Include="Frustum.cpp" />
     <ClCompile Include="HeightMap.cpp" />
@@ -82,8 +80,6 @@
     <ClInclude Include="InputDevice.h">
       <Filter>Windows and Input</Filter>
     </ClInclude>
-    <ClInclude Include="..\6) Scene Graph\SceneNode.h" />
-    <ClInclude Include="..\2) Matrix Transformations\Camera.h" />
     <ClInclude Include="Plane.h" />
     <ClInclude Include="Frustum.h" />
     <ClInclude Include="HeightMap.h" />
